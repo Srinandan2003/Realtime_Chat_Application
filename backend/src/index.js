@@ -25,7 +25,7 @@ app.use(cors({
 
 
 const PORT = process.env.PORT || 5000
-const _dirname = path.resolve();
+const __dirname = path.resolve();
 
 app.use('/api/auth',authRoute);    // authentication
 app.use('/api/messages',messageRoute); //messages
