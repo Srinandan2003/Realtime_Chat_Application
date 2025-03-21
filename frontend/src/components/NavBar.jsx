@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
-import {MessageSquare, User , LogOut , Settings } from 'lucide-react'
+import {Waypoints, User , LogOut , Settings } from 'lucide-react'
 
 const NavBar = () => {
   const { logout, authUser } = useAuthStore();
@@ -19,9 +19,10 @@ const NavBar = () => {
               className="flex items-center gap-2.5 hover:opacity-80 transition-all"
             >
               <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                <MessageSquare className="w-5 h-5 text-primary" />
+             
+                <Waypoints className="w-5 h-5 text-primary" />
               </div>
-              <h1 className="text-lg font-bold">Chatty</h1>
+              <h1 className="text-lg font-bold">QuickTalk</h1>
             </Link>
           </div>
           <div className="flex items-center gap-2">
