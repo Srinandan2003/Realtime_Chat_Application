@@ -3,7 +3,8 @@
 
 A full-stack MERN application featuring real-time messaging capabilities with Socket.io, user authentication, and responsive design.
 
-![Chat Application](https://realtime-chat-application-1-ipjp.onrender.com/login)
+[Quick Chat](https://realtime-chat-application-1-ipjp.onrender.com/login)
+
 
 ## ✨ Features
 
